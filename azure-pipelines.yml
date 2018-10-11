@@ -34,4 +34,4 @@ steps:
   inputs:
     sourceFolder:
     contents: '**\Release\**'
-    targetfolder:$(Build.ArtifactStagingDirectory)
+    targetfolder: '$(Build.ArtifactStagingDirectory)'
